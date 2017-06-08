@@ -10,6 +10,7 @@
 #include <vector>
 
 int main() {
+    std::cout<<"I WROTE THIS TO BE DIFFERENT" << std::endl;
     std::vector<char> type_vector;
     int side_length = 4;
     type_vector.reserve(side_length*side_length);
